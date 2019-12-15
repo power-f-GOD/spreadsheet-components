@@ -1,0 +1,90 @@
+
+.equation.cell {
+  position: relative;
+}
+
+.error.cell {
+  background: rgba(255, 0, 0, 0.14);
+  font-size: 0.8em;
+  color: red;
+}
+
+.error.cell > div.text {
+  text-align: center;
+}
+
+.equation.cell:before {
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-style: solid;
+  border-width: 6px 6px 0 0;
+  border-color: #2185d0 transparent transparent transparent;
+  z-index: 2;
+}
+
+.row-handle.cell {
+  width: 1rem;
+}
+
+tbody .row-handle.cell,
+thead .cell:not(.row-handle) {
+  cursor: move;
+}
+
+.data-grid-container table.data-grid tr {
+  background: white;
+}
+
+.data-grid-container table.data-grid .drop-target,
+.data-grid-container table.data-grid thead .cell.read-only.drop-target {
+  background: #6f86fc;
+  transition: none;
+  color: white;
+}
+
+.Select-control,
+.Select-input,
+.Select-placeholder,
+.Select-clear,
+.Select-placeholder,
+.Select--single > .Select-control .Select-value {
+  height: 15px;
+  line-height: 12px;
+  font-size: 12px;
+  text-align: left;
+  border-radius: 0;
+  border: 0;
+}
+
+.Select-control input {
+  height: 16px;
+  font-size: 12px;
+  padding: 0;
+}
+
+.sheet-container {
+  display: block;
+  padding: 0;
+  margin: auto;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+div.divider {
+  margin: 40px 0px;
+  height: 1px;
+  width: 100%;
+  background-color: #eee;
+}
+
+pre {
+  display: inline-block;
+  background: #333;
+  padding: 10px 30px;
+  border-left: 2px solid white;
+}

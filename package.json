@@ -8,9 +8,13 @@
     "@testing-library/user-event": "^7.1.2",
     "@types/jest": "^24.0.0",
     "@types/node": "^12.0.0",
-    "@types/react": "^16.9.0",
+    "@types/react": "^16.9.16",
     "@types/react-dom": "^16.9.0",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.4.1",
+    "lodash": "^4.17.15",
     "react": "^16.12.0",
+    "react-datasheet": "^1.4.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.0",
     "typescript": "~3.7.2"
@@ -35,5 +39,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.149",
+    "@types/react-data-grid": "^4.0.5",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-data-grid": "^6.1.0",
+    "react-data-grid-addons": "^6.1.0",
+    "sass-loader": "^8.0.0"
   }
 }

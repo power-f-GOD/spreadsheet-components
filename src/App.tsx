@@ -1,26 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
+
+import DataGrid from './components/DataGrid';
+import DataSheet from './components/DataSheet';
 import './App.css';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <h3>Adazzle React Data Grid Component Presentation</h3>
+      <DataGrid />
+      <br />
+      <br />
+      <h3>Nadbm React Data Sheet Component Presentation</h3>
+      <DataSheet />
     </div>
   );
-}
+};
 
 export default App;
